@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.ccui.mapper.TbUserMapper">
-	<insert id="insert" resultType="com.ccui.po.TbUser" parameterType="com.ccui.po.TbUser">
+	<insert id="insert"  parameterType="com.ccui.po.TbUser">
 		insert into tbuser values(#{username},#{username},#{password})
 	</insert>
 </mapper>  
